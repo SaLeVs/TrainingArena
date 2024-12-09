@@ -12,6 +12,10 @@ public class Variables : MonoBehaviour
     // = means that variable recive a value
 
 
+    // global variables we can acess anywhere
+
+
+
     private void Awake()
     {
         count++;
@@ -25,6 +29,11 @@ public class Variables : MonoBehaviour
         print("jumpForce: " + jumpForce);
         Debug.Log(count);
         Debug.Log(x);
+
+        string enemyName;
+        enemyName = "Gambit";
+
+        print(enemyName);
     }
 
 
