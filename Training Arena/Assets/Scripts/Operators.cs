@@ -14,15 +14,28 @@ public class Operators : MonoBehaviour
 
     */
     
+    /* 
+     LOGICAL OPERATORS
+     
+     &&  And
+     ||  Or
+      !  Not
+     
+     */
 
     int x = 2, y = 4;
     string name1 = "Sterling", name2 = "sterling"; // the upper and lower case means for unity
 
+    string humor;
+    bool pizza, soda;
     void Start()
     {
-        print(x == y);
-        print(name1 != name2);
-  
+        name = !(y > x) ? "positivo" : "negativo";
+        //Debug.Log(name);
+        pizza = false;
+        soda = false;
+        humor = (pizza == true) || (soda == true) ? "feliz" : "triste";
+        Debug.Log(humor);
     }
 
 

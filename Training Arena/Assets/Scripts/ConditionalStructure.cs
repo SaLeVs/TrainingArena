@@ -16,7 +16,7 @@ public class ConditionalStructure : MonoBehaviour
 
     void printResults()
     {
-        int clicks = x < 10 ? 5 : -5;
+        int clicks = x < 10 ? 5 : -5; // ternary operator
         print(clicks);
     }
 }
