@@ -24,7 +24,7 @@ public class Operators : MonoBehaviour
      */
 
     int x = 2, y = 4;
-    string name1 = "Sterling", name2 = "sterling"; // the upper and lower case means for unity
+    // string name1 = "Sterling", name2 = "sterling"; // the upper and lower case means for unity
 
     string humor;
     bool pizza, soda;
