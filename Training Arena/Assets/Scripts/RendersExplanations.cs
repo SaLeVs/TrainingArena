@@ -14,6 +14,8 @@ public class RendersExplanations : MonoBehaviour
         have diferrence when you add a object on scene and when you add a object on project
       
         We can change the shaders on graphics on project settings
+
+        but if we do that, we need to chenge the materials on edit/render pipeline/universal render pipeline/upgrade project materials to universalRP Materials
     
     */
 }
