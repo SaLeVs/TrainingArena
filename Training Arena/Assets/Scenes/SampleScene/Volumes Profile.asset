@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 253004473571186493}
-  - {fileID: 253004473571186493}
   - {fileID: 789851070023340187}
+  - {fileID: 253004473571186493}
 --- !u!114 &253004473571186493
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.9
   intensity:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   scatter:
     m_OverrideState: 0
