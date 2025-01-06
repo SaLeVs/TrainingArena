@@ -27,10 +27,14 @@ public class CleanCodeGuidelines : MonoBehaviour
             // dont use the five, instead of this
         }
 
-        if(distance < goalPoint)
+        if (distance < goalPoint)
         {
             // we uderstand all reading the line 30
+
         }
+        
+
+
     }
 
     private void NeverUseStringsAsIdentifiers()
