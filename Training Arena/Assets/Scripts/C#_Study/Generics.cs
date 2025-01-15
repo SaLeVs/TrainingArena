@@ -34,7 +34,7 @@ public class Generics : MonoBehaviour
         
         public T MyFunction2()
         {
-            new T(); // this work because we add the New() constraint   
+            new T(); // this work because we add the new() constraint   
             return new T();
         }
     }
