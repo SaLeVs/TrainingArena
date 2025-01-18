@@ -11,6 +11,9 @@ public class Reflection : MonoBehaviour
 
     private void Start()
     {
+
+         // here we create a new instance of Player class
+
         Exercise exercise = new Exercise();
         exercise.MyFunction();
 
@@ -20,14 +23,17 @@ public class Reflection : MonoBehaviour
         Type playerType = typeof(Exercise).GetNestedType("Player"); // here we get a type of specifc class
         // we will use playerType for search functions. Or we can use Type of the class directly
 
-
+        object playerObject = Activator.CreateInstance(playerType);
         foreach (Type type in typeof(Exercise).GetNestedTypes(BindingFlags.NonPublic)) // here we get all classes inside Exercise class, and can add filters
         {
             Debug.Log(type); // binding flags = filters, for add more filters we can use | operator (bindingFlags.NonPublic | BindingFlags.Public)
         }
 
         MethodInfo myfunctionMethodInfo = playerType.GetMethod("MyFunction"); // here we get a method from a class
-        myfunctionMethodInfo.Invoke(new Exercise.Player(), new object[] { }); // here we create a new instance of Player class and call MyFunction method
+        // myfunctionMethodInfo.GetParameters(); // here we get the parameters of the method
+        myfunctionMethodInfo.ReturnType.ToString(); // here we get the return type of the method
+
+        myfunctionMethodInfo.Invoke(playerObject, new object[] { }); // here we create a new instance of Player class and call MyFunction method
         // Here we are using reflection to call a method that we dont know if it exists, if you look, the methods dont have references, so we can call them without knowing if they exist
 
         
