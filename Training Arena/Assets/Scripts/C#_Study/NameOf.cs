@@ -11,6 +11,7 @@ public class NameOf : MonoBehaviour
         // But, the most value about this is when we use it in the refactoring, for example, if the name player was "Player", if we change the name of the class, the string dont will change
         // but the name of will change
         // work for fields, classes, functions, etc
+        Debug.Log(playerClassName);
     }
     public class Player
     {

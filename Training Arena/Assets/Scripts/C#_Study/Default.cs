@@ -8,5 +8,6 @@ public class Default : MonoBehaviour
     {
         int i = 1;
         Debug.Log(default(int)); // 0
+        Debug.Log(i);
     }
 }

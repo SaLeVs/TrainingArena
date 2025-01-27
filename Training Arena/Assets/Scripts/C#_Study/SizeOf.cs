@@ -13,6 +13,8 @@ public class SizeOf : MonoBehaviour
         // we can use marshal for that
         Debug.Log(Marshal.SizeOf(new Player()));
         // Marshal works for structs too
+
+        Debug.Log(i);   
     }
 
     [StructLayout(LayoutKind.Sequential)] // we need to put this for verify class size

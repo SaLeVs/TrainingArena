@@ -19,5 +19,6 @@ public class ConstantsReadOnly : MonoBehaviour
     {
         Debug.Log(PLAYER_SPEED);
         //  PLAYER_HEALTH = 50f; // We cant change the value of a constant
+        Debug.Log(PLAYER_HEALTH);
     }
 }

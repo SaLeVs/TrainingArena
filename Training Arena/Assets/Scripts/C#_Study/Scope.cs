@@ -11,6 +11,7 @@ public class Scope : MonoBehaviour
     private void Start()
     {
         int x = 10;
+        Debug.Log(x);
 
     }
 

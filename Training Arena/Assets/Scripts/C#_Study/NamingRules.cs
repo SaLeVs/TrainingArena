@@ -36,6 +36,8 @@ public class NamingRules : MonoBehaviour
         {
             // Do something else...
         }
+
+        OnSomethingHappened?.Invoke(this, EventArgs.Empty);
     }
 
     // dont use single-letter names in code. The goal of writing code is not to make it compact, but to make it understandable.
