@@ -21,5 +21,9 @@ public class EnumFlags : MonoBehaviour
         Debug.Log(playerAbilities);
 
         Debug.Log(playerAbilities.HasFlag(Abillity.jump)); // True
+
+#if TEST // THIS IS NOT INCLUDED IN THE BUILD
+        Debug.Log("Testing is defined");
+#endif
     }
 }
