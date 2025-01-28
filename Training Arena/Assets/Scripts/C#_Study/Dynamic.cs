@@ -10,7 +10,7 @@ public class Dynamic : MonoBehaviour
     private void Start()
     {
         d = new object();
-        d.Test();   // no error at compile time, but error at runtime
+        // d.Test();   // no error at compile time, but error at runtime
     }
 
     // we can use dynamic with json data
