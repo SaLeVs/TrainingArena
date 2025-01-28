@@ -12,6 +12,7 @@ public class Nullable : MonoBehaviour
     private void Start()
     {
         Setup(); // we can call the method without passing any value beacuse we have set the default value to null instead of 0, can be good for optional parameters
+        Debug.Log(i+j);
     }
 
     private void Setup(int? i = null) // this make more sense than setting the default value to 0

@@ -13,7 +13,7 @@ public class BitWiseOperators : MonoBehaviour
         Debug.Log(5 | 3); // 7
         Debug.Log(5 ^ 3); // 6
         Debug.Log(~5);    // -6
-
+        Debug.Log(a+b);
         // this dont have so much utillits, but can be useful in some cases with layer masks
     }
 

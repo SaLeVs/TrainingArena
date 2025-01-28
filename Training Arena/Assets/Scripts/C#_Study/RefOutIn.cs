@@ -67,6 +67,7 @@ public class RefOutIn : MonoBehaviour
         // the kwyword in is used to make the variable read-only
         // using with structs
 
+
         public class UnitData
         {
             public State state;
