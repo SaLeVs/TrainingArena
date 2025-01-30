@@ -11,6 +11,7 @@ public class Attributes : MonoBehaviour
     private void Start()
     {
        typeof(Player).GetCustomAttributes(typeof(IsObjectTypeAttribute), false); // This method returns an array of all attributes applied to the class
+        Debug.Log(moveSpeed);
     }
 
     [IsObjectType(ObjectType.Unit)] // This attribute is a custom attribute

@@ -27,6 +27,8 @@ public class AsyncAwaitTask : MonoBehaviour
 
         await Task.WhenAll(eggsTask, baconTask, toastTask); // here we are waiting for all the task to be completed
         Debug.Log("Breakfast done");
+
+        Debug.Log(serverReturnData);
     }
 
     public static async Task ContactWebSever()
