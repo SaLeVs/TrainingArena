@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -28.883778}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2110,11 +2110,11 @@ Transform:
   m_GameObject: {fileID: 686678283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -75.07743, y: 9.474035, z: 86.93461}
+  m_LocalPosition: {x: -79.34092, y: 7.342528, z: 78.737946}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1473067727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &686678285
 BoxCollider:
@@ -3078,12 +3078,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360022708}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -81.07743, y: 11.474035, z: 79.93461}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -85.34092, y: 9.342527, z: 71.737946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1473067727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1447352209
 PrefabInstance:
@@ -3192,6 +3192,9 @@ Transform:
   - {fileID: 689836252}
   - {fileID: 905448498}
   - {fileID: 224102056}
+  - {fileID: 1731942871}
+  - {fileID: 686678284}
+  - {fileID: 1360022709}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731942870
@@ -3222,11 +3225,11 @@ Transform:
   m_GameObject: {fileID: 1731942870}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -83.07743, y: 10.474035, z: 83.93461}
+  m_LocalPosition: {x: -87.34092, y: 8.342527, z: 75.737946}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1473067727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1731942872
 BoxCollider:
@@ -3833,6 +3836,3 @@ SceneRoots:
   - {fileID: 1473067727}
   - {fileID: 1935102039}
   - {fileID: 400542098}
-  - {fileID: 1731942871}
-  - {fileID: 686678284}
-  - {fileID: 1360022709}
