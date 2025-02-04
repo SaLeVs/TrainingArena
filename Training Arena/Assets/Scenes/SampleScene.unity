@@ -2180,7 +2180,6 @@ GameObject:
   - component: {fileID: 400542097}
   - component: {fileID: 400542096}
   - component: {fileID: 400542095}
-  - component: {fileID: 400542099}
   m_Layer: 0
   m_Name: Test_scripts
   m_TagString: Untagged
@@ -2277,18 +2276,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &400542099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400542094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63c606df51916f14d9bb2d6345eca6b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,6 +2442,7 @@ GameObject:
   - component: {fileID: 568436843}
   - component: {fileID: 568436842}
   - component: {fileID: 568436846}
+  - component: {fileID: 568436847}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -2573,6 +2561,18 @@ NavMeshAgent:
   m_BaseOffset: 0.49996942
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &568436847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568436841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9cf44707cb90d441959f56110b3a906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &588195574
 GameObject:
   m_ObjectHideFlags: 0
