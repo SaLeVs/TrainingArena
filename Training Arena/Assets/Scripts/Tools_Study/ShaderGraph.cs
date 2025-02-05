@@ -20,4 +20,11 @@ public class ShaderGraph : MonoBehaviour
             material.SetColor("_Color", Color.red);
         }
     }
+
+    // Some differences on shader graph V10
+    // Properties are now on left side, we have a dedicate graph inspector
+    // we cant create the master node
+    // we can make a shader for universal or HDRP
+    // The most big difference is on the divide 4 corlous node, we have to use split
+
 }
