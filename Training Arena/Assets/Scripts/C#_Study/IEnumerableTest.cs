@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IEnumerable : MonoBehaviour
+public class IEnumerableTestFunction : MonoBehaviour
 {
     // Learn how to make your custom typs with foreach
 
