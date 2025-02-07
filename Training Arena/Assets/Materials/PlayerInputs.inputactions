@@ -1,0 +1,90 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "792b4282-2f9c-46c2-825c-acef2d760f94",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "3afb5976-f617-4241-93c3-b2a8dc94a279",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "48365b35-76cb-40bd-ba18-793ed64bf0ae",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Car",
+            "id": "196e6140-e992-463e-bded-e5f13af42d05",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "96a15adb-1d23-4945-9b7b-9c7de2762a7b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7a49c539-5e60-4dd3-bfc7-343096ce4ea3",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "e44ea273-9875-495b-84a4-fed1c5f1d7c9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "9326031a-dfc7-4299-8639-2a23762c5e04",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f57ad05b-ccde-4e08-84e6-1f50b39d8819",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -27,7 +27,7 @@ public class InputSystemXManager : MonoBehaviour
             Debug.Log("Space");
         }
 
-        Debug.Log(Input.GetAxisRaw("Horizontal")); // or Input.GetButton("Jump")
+        // Debug.Log(Input.GetAxisRaw("Horizontal")); // or Input.GetButton("Jump")
     }
 
     // you can use the axes for name the inputs
