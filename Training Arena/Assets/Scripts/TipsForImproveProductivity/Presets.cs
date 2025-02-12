@@ -7,3 +7,4 @@ public class Presets : MonoBehaviour
     // We have the preset manager, we can create a preset for component, every time we add a component, automatically apply the preset
     // we just need to create a simple preset and attach on preset manager for a component, dont use the nameBar
 }
+ 
