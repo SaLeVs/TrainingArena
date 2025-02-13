@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f78b42f3abf3d4095298f653338584, type: 3}
   m_Name: Edwin
   m_EditorClassIdentifier: 
-  cardName: 
-  description: 
-  artwork: {fileID: 0}
-  manaCost: 0
-  health: 0
+  cardName: Edwin
+  description: The addest guy in town
+  artwork: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  manaCost: 3
+  health: 2
