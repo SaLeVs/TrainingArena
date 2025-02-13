@@ -15,13 +15,8 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 84b392dc2d8d04848b414a2e05fb5b36
   m_SerializeEntries:
-  - m_GUID: 7a1bef8bf69f1c74fa8dc073baf2763a
-    m_Address: Assets/Prefabs/ScriptsCube.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ffa8a30f7f78f6c43817c67fad8b20dc
-    m_Address: Wall
+  - m_GUID: 4081c740da90be942a8b98fbfa60d3af
+    m_Address: Assets/Prefabs/Plataform.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
