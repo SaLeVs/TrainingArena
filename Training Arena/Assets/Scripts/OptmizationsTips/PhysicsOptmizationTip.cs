@@ -1,3 +1,6 @@
+using System.Data.Common;
+using Unity.Collections;
+using UnityEditor;
 using UnityEngine;
 
 public class PhysicsOptmizationTip : MonoBehaviour
@@ -43,5 +46,12 @@ public class PhysicsOptmizationTip : MonoBehaviour
 
     // Use Contact Arrays
     // Contact arrays gives you a method where collision data (contacts) is stored and managed in an array format
-    
+
+    // Reuse collistion callbacks
+    // The callbacks MonoBehaviour.OnCollisionEnter, MonoBehaviour.OnCollisionStay and MonoBehaviour.OnCollisionExit all take a collision instance as a parameter
+    // This collision instance is allocated on the managed heap and must be garbage collected
+    // To reduce the amount of garbage generated enable the Physics.reuseCollisionCallbaks
+    // found in Projects Settings > Physics > Reuse Collision Callbacks
+    // After this Unity only assigns a single collision pair instance to each callback
+    // This reduces waste for the game collector and improves performance
 }
