@@ -25,5 +25,10 @@ public class Conditions : MonoBehaviour
         }
     }
 
+    // We use if and else when conditions are complexies or not based on a single variable
+    // we can use if and else for combine with logical operators
+
+    // We will use switch when we have a lot of conditions based on a single variable
+    // make code more clean
     
 }
