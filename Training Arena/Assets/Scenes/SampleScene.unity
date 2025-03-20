@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6729,7 +6729,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925043390}
-  - component: {fileID: 1925043389}
   m_Layer: 0
   m_Name: ObjectPooler
   m_TagString: Untagged
@@ -6737,22 +6736,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1925043389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925043388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9851775bbf05b0e44877c2dca71f8e1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pools:
-  - tag: Sphere
-    prefab: {fileID: 5767780362346368595, guid: 765c503ae44a65243b673deed106e219, type: 3}
-    size: 150
 --- !u!4 &1925043390
 Transform:
   m_ObjectHideFlags: 0
