@@ -5,7 +5,7 @@ public class Percentage : MonoBehaviour
     // percentage = (part / total) * 100
 
     // For example, 20 students in a classroom with 50 students, pass on the exam
-    // ( part (20) / total (50) ) * 100 = 40% - 40% of the students passed the exam
+    // (part (20) / total (50) ) * 100 = 40% - 40% of the students passed the exam
 
 
     // We can calculate the part based on the percentage and the total
